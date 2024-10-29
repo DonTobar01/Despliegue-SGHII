@@ -1,0 +1,107 @@
+/* index.css */
+
+/* Configuración de variables globales */
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilos de los botones */
+.btn-primary {
+  background-color: #007bff; /* Color de fondo del botón */
+  border-color: #007bff;     /* Color del borde del botón */
+  color: #fff; /* Color del texto en el botón */
+}
+
+/* Estilo de enlaces */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none; /* Eliminar subrayado */
+  transition: color 0.3s; /* Suaviza la transición de color */
+}
+
+a:hover {
+  color: #535bf2; /* Color al pasar el mouse */
+}
+
+/* Estilo del cuerpo */
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Cambiar a columna para una mejor alineación */
+  justify-content: center; /* Centrar el contenido verticalmente */
+  align-items: center; /* Centrar el contenido horizontalmente */
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #242424; /* Color de fondo */
+}
+
+/* Estilo del encabezado */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #ffffff; /* Color blanco para el encabezado en fondo oscuro */
+  margin-bottom: 0.5em; /* Espacio inferior */
+}
+
+/* Estilo de botones */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #ffffff; /* Color del texto en el botón */
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s; /* Transición suave */
+}
+
+button:hover {
+  border-color: #646cff; /* Color del borde al pasar el mouse */
+  background-color: #282828; /* Color de fondo al pasar el mouse */
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color; /* Resaltado de enfoque */
+}
+
+/* Estilos para modo claro */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547; /* Color del texto en modo claro */
+    background-color: #ffffff; /* Color de fondo en modo claro */
+  }
+
+  a:hover {
+    color: #747bff; /* Color del enlace al pasar el mouse en modo claro */
+  }
+
+  button {
+    background-color: #f9f9f9; /* Color de fondo del botón en modo claro */
+    color: #000; /* Color del texto en el botón en modo claro */
+  }
+}
+
+/* Media query para mejorar la responsividad */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+  }
+
+  button {
+    padding: 0.5em 1em; /* Reducción de padding en pantallas pequeñas */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño en botones */
+  }
+}

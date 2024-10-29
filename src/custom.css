@@ -1,0 +1,116 @@
+/* src/custom.css */
+
+body {
+  background-color: #f8f9fa; /* Fondo gris claro */
+  font-family: 'Arial', sans-serif; /* Fuente moderna */
+  line-height: 1.6; /* Mejora la legibilidad */
+}
+
+.App {
+  max-width: 900px; /* Ancho máximo de la aplicación */
+  margin: 0 auto; /* Centrado horizontal */
+  padding: 20px; /* Espaciado interno */
+  background-color: #ffffff; /* Fondo blanco para la tarjeta */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+  font-size: 2rem; /* Tamaño de fuente */
+  color: #343a40; /* Color del texto */
+  margin-bottom: 20px; /* Espacio inferior */
+  text-align: center; /* Centra el título */
+}
+
+.container {
+  padding: 20px; /* Espaciado interno */
+}
+
+.table {
+  background-color: #ffffff; /* Fondo blanco para la tabla */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.table th, .table td {
+  vertical-align: middle; /* Alineación vertical */
+  padding: 15px; /* Espaciado interno */
+}
+
+.btn {
+  border-radius: 4px; /* Bordes redondeados */
+  transition: background-color 0.3s, transform 0.3s; /* Efecto de transformación */
+}
+
+/* Estilos para botones de diferentes colores */
+.btn-primary {
+  background-color: #007bff; /* Azul */
+  border: none; /* Sin borde */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Azul más oscuro en hover */
+  transform: scale(1.05); /* Efecto de aumento en hover */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Gris */
+  border: none; /* Sin borde */
+}
+
+.btn-secondary:hover {
+  background-color: #495057; /* Gris más oscuro en hover */
+  transform: scale(1.05); /* Efecto de aumento en hover */
+}
+
+.btn-warning {
+  background-color: #ffc107; /* Amarillo */
+  border: none; /* Sin borde */
+}
+
+.btn-warning:hover {
+  background-color: #e0a800; /* Amarillo más oscuro en hover */
+  transform: scale(1.05); /* Efecto de aumento en hover */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Rojo */
+  border: none; /* Sin borde */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Rojo más oscuro en hover */
+  transform: scale(1.05); /* Efecto de aumento en hover */
+}
+
+.form-label {
+  font-weight: bold; /* Negrita para etiquetas de formulario */
+  color: #495057; /* Color ligeramente más oscuro */
+}
+
+.form-control,
+.form-select {
+  border-radius: 4px; /* Bordes redondeados */
+  border: 1px solid #ced4da; /* Borde gris */
+  box-shadow: none; /* Sin sombra */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Efecto de transición */
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #80bdff; /* Color del borde al enfocar */
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Sombra de enfoque */
+}
+
+.alert {
+  border-radius: 4px; /* Bordes redondeados para alertas */
+  margin-top: 20px; /* Espacio superior */
+  padding: 15px; /* Espaciado interno para alertas */
+}
+
+/* Estilos para mensajes de error */
+.error-message {
+  color: #dc3545; /* Rojo para mensajes de error */
+  font-weight: bold; /* Negrita */
+  margin-top: 5px; /* Espacio superior */
+}

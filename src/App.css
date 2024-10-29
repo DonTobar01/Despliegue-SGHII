@@ -1,0 +1,100 @@
+/* App.css */
+
+/* Estilos generales para la tabla */
+.table tbody tr:nth-child(odd) {
+  background-color: #f8f9fa; /* Color gris claro para filas impares */
+}
+
+.table tbody tr:hover {
+  background-color: #e2e6ea; /* Color más oscuro al pasar el mouse */
+}
+
+tr:hover {
+  background-color: #f8f9fa; /* Color gris claro para filas al pasar el mouse */
+}
+
+/* Contenedor general */
+.container {
+  max-width: 600px; /* Limitar el ancho del contenedor */
+}
+
+/* Títulos */
+h2 {
+  text-align: center; /* Centrar el título */
+  margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilos para alertas */
+.alert {
+  transition: opacity 0.5s ease; /* Transición suave para la opacidad */
+  border-radius: 4px; /* Bordes redondeados para alertas */
+}
+
+.alert-success {
+  background-color: #d4edda; /* Fondo verde claro */
+  border-color: #c3e6cb; /* Borde verde */
+}
+
+.alert-danger {
+  background-color: #f8d7da; /* Fondo rojo claro */
+  border-color: #f5c6cb; /* Borde rojo */
+}
+
+.alert-warning {
+  background-color: #fff3cd; /* Fondo amarillo claro */
+  border-color: #ffeeba; /* Borde amarillo */
+}
+
+/* Estilo para el contenedor raíz */
+#root {
+  max-width: 1280px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor */
+  padding: 2rem; /* Espaciado interno */
+  text-align: center; /* Alinear texto al centro */
+}
+
+/* Estilo para el logo */
+.logo {
+  height: 6em; /* Altura del logo */
+  padding: 1.5em; /* Espaciado interno */
+  will-change: filter; /* Indica que el filtro cambiará */
+  transition: filter 300ms; /* Transición suave para el filtro */
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa); /* Sombra al pasar el mouse */
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa); /* Sombra específica para el logo de React */
+}
+
+/* Animación de giro del logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg); /* Inicio de la rotación */
+  }
+  to {
+    transform: rotate(360deg); /* Fin de la rotación */
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear; /* Giro infinito del logo */
+  }
+}
+
+/* Estilo para las tarjetas */
+.card {
+  padding: 2em; /* Espaciado interno para las tarjetas */
+  border-radius: 8px; /* Bordes redondeados para las tarjetas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para las tarjetas */
+  background-color: #fff; /* Color de fondo blanco para las tarjetas */
+}
+
+/* Estilo para el texto de documentación */
+.read-the-docs {
+  color: #888; /* Color gris para el texto de documentación */
+  font-size: 0.9em; /* Tamaño de fuente más pequeño */
+}

@@ -1,0 +1,44 @@
+/* ToolStatus.css */
+
+.tool-status-container {
+    max-width: 800px; /* Ancho máximo para el contenedor */
+    margin: 0 auto; /* Centrar contenedor */
+    padding: 20px; /* Espaciado interno */
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+  }
+  
+  h2 {
+    color: #343a40; /* Color del encabezado */
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  .form-label {
+    font-weight: bold; /* Texto en negrita para etiquetas */
+  }
+  
+  .form-select {
+    border-radius: 4px; /* Bordes redondeados para select */
+    border: 1px solid #ced4da; /* Borde del select */
+  }
+  
+  .alert {
+    border-radius: 4px; /* Bordes redondeados para alertas */
+  }
+  
+  .alert-info {
+    background-color: #d1ecf1; /* Color de fondo de alerta informativa */
+    border-color: #bee5eb; /* Color del borde de alerta informativa */
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da; /* Color de fondo de alerta de peligro */
+    border-color: #f5c6cb; /* Color del borde de alerta de peligro */
+  }
+  
+  /* Transición para notificaciones */
+  .notification {
+    transition: opacity 0.5s ease; /* Transición suave para notificaciones */
+  }
+  

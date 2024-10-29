@@ -1,0 +1,28 @@
+/* ToolItem.css */
+
+.tool-item {
+    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+  }
+  
+  .tool-item:hover {
+    background-color: #e9ecef; /* Color de fondo al pasar el mouse */
+  }
+  
+  .tool-item td {
+    padding: 12px; /* Espaciado interno para las celdas */
+  }
+  
+  .tool-item .btn {
+    border-radius: 4px; /* Bordes redondeados para los botones */
+    transition: transform 0.2s; /* Transición para el efecto hover */
+  }
+  
+  .tool-item .btn:hover {
+    transform: scale(1.05); /* Aumento de tamaño al pasar el mouse */
+  }
+  
+  /* Estilos para las celdas de texto */
+  .text-center {
+    text-align: center; /* Centrar texto en las celdas */
+  }
+  
