@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CompanyLogo from './CompanyLogo';
-import './Login.css'; // Asegúrate de tener un archivo CSS para estilizar el formulario
+import './login.css'; // Asegúrate de tener un archivo CSS para estilizar el formulario
 
 
 const Login = ({ onLogin }) => {
