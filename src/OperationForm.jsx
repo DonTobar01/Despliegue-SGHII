@@ -18,12 +18,7 @@ function OperationForm({ operationToEdit, tools, kits, users, onSave, onCancel }
       setCantidad(operationToEdit.cantidad);
     }
   }, [operationToEdit]);
-
-
-  // Verifica que `kits` esté cargado antes de renderizar el formulario
-  if (kits.length === 0) {
-    return <p>Cargando kits...</p>;
-  }
+ 
 
   const handleSubmit = (e) => {
     e.preventDefault();
